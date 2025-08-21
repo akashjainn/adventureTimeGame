@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "font.h": "c",
+        "gba.h": "c",
+        "tileset.h": "c",
+        "level1.h": "c",
+        "sprites.h": "c",
+        "level1collision.h": "c",
+        "finn sprite sheet.h": "c",
+        "level1collisionmap.h": "c",
+        "startscreen.h": "c",
+        "pausescreen.h": "c",
+        "background2.h": "c",
+        "foreground2.h": "c",
+        "background.h": "c",
+        "level1new.h": "c",
+        "win.h": "c",
+        "fireballsoundeffect.h": "c",
+        "swordsoundeffect.h": "c",
+        "worldtileset.h": "c"
+    }
+}
