@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Finn’s Quest (GBA)</title>
+    <style>
+      body { margin:0; display:grid; place-items:center; height:100vh; background:#0b0d12; }
+      .wrap { width:min(100vw, 960px); height:min(90vh, 720px); }
+      #game { width:100%; height:100%; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap"><div id="game"></div></div>
+
+    <script>
+      // Where to render
+      window.EJS_player = '#game';
+      // Use the GBA core
+      window.EJS_core = 'gba';
+      // Optional on-screen controls for mobile
+      window.EJS_Buttons = { pause: true, fullscreen: true, saveState: true, loadState: true };
+      // Path to emulator data (use EmulatorJS CDN)
+      window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
+      // Your ROM path (relative to this HTML)
+      window.EJS_gameUrl = 'Project.gba';
+      // (Optional) Name shown in save states
+      window.EJS_gameName = "Finn's Quest";
+    </script>
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+  </body>
+</html>
